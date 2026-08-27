@@ -113,7 +113,7 @@ Bridge 시작. 3개 센서 모니터링 중...
 3. 아래 명령어 입력 후 엔터:
 
 ```python
-exec(open(r"C:\Users\공간지능연구실\Desktop\capstone\ue_controller.py").read())
+exec(open(r"C:\Users\<폴더 경로>\ue_controller.py").read())
 ```
 
 > `r"..."` 앞의 `r` 은 반드시 포함해야 합니다. 없으면 경로의 `\` 문자가 오류를 일으킵니다.
